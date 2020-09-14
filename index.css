@@ -1,0 +1,327 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inconsolata:wght@200&family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    background-image: url('Images/014.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Architects Daughter', cursive;
+}
+
+/*Navigation Bar*/
+
+nav{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a{
+    font-size: 23px;
+    color: black;    
+}
+nav a:hover{
+    border-bottom: 2px solid #F08080;
+    padding-bottom: 2px;
+    color: black;
+}
+span{
+    color: black;
+}
+
+
+/*Home Page*/
+
+.home{
+    display: inline-block;
+    padding: 130px 0 0 50px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.home .home-title{
+    border-left: 3px solid black;
+    padding: 8px;
+    margin: 10px;
+}
+.home-title h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.home-title h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.home-title h3{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.home-title a{
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 7px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.home-title a:hover{
+    text-decoration: none;
+    background-color: white;
+}
+
+
+/*About me*/
+
+.about-me{
+    margin: 70px 0 130px 0;
+}
+.about-me h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 3px solid #F08080;
+    font-size: 2rem;
+}
+.about-me img{
+    width: 100%;
+}
+.about-me h3, h4, h5{
+    text-align: center;
+    font-weight: 900;
+    margin: 15px;
+}
+.about-me .info{
+    padding: 10px;
+}
+.about-me .info span:nth-child(odd){
+    font-size: 18px;
+    font-weight: 900;
+}
+.about-me .info span:nth-child(even){
+    font-size: 17px;
+}
+.about-me .social{
+    font-size: 23px;
+}
+.about-me .social a{
+    color: black;
+    margin: 5px;
+}
+.about-me .social a .fa{
+    transition: 0.6s;
+    line-height: 50px;
+    background-color: #F08080;
+    border-radius: 55%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: 0.6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+.about-me .social a .fa:hover{
+    color: #F08080;
+    background-color: black;
+}
+
+
+/*Services*/
+.services{
+    margin-bottom: 130px;
+}
+.services h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.services h4{
+    text-align: center;
+    font-weight: 400;
+    color: #F08080;
+    border-bottom: 2px solid black;
+    margin-top: 15px;;
+}
+.icon{
+    text-align: center !important;
+    font-size: 50px;
+}
+.services p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+/*Skills*/
+
+.skills{
+    margin: 0 20px 130px 20px;
+}
+.skills h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 3px solid #F08080;
+    font-size: 2rem;
+}
+.progress-info span{
+    float: right;
+    margin-top: -30px;
+    font-size: 1rem;   
+}
+.progress-info h6{
+    font-size: 1.3rem;
+    margin: 20px 0 10px 0;
+}
+.progress-info .progress-bar-striped{
+    background-color: #F08080;
+}
+.info-d h6{
+    font-size: 1.3rem;
+    margin: 50px 0 10px 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+/* Contact Me */
+.contact{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    width: 370px;
+    height: 420px;
+    text-align: center;
+    display: block;
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+.contact h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 3px solid #F08080;
+    margin-bottom: 10px;
+}
+.contact input{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact textarea{
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold;
+}
+.contact .btn{
+    background-color: #F08080;
+    margin-bottom: 80px;
+    border-radius: 40px;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #e6e6e6;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+}
+
+/*Responsive Design*/
+
+@media (max-width: 370px){
+    /* Navigation Bar */
+    nav ul li a{
+        font-size: 18px;
+        text-align: center;
+    }
+    nav ul li a:hover{
+        border-bottom: 2px solid #F08080;
+        padding-bottom: 2px;
+        color: black;
+    }
+
+    /* Home Page */
+    .home{
+    display: inline-block;
+    padding-top: 80px;
+    padding-left: 25px;
+    }
+    .home h1{
+        font-size: 2rem;
+    }
+    .home h2{
+        font-size: 1.5rem;
+    }
+    .home h3{
+        font-size: 1.1rem;
+    }
+    .home a{
+        font-size: 0.8rem;
+    }
+    
+    /* About me */
+    .about-me .social a{
+        width: 10px;
+    }
+    
+}
+
+@media (max-width: 768px){
+    nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+    nav ul li a:hover{
+        border-bottom: 2px solid #F08080;
+        padding-bottom: 2px;
+        color: black;
+    }
+    .home{
+    display: inline-block;
+    padding-top: 80px;
+    padding-left: 25px;
+    }
+    .home h1{
+        font-size: 2rem;
+    }
+    .home h2{
+        font-size: 1.5rem;
+    }
+    .home h3{
+        font-size: 1.2rem;
+    }
+    .home a{
+        font-size: 0.9rem;
+    }
+
+    /* About Me */
+    .about-me h2{
+        font-size: 1.9rem;
+    }
+    .about-me h3{
+        font-size: 1.6rem;
+    }
+    .about-me h4{
+        font-size: 1.4rem;
+    }
+    .about-me h5{
+        font-size: 1.2rem;
+    }
+}
